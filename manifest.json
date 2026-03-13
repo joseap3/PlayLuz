@@ -2,19 +2,41 @@
   "name": "PlayLuz - Music Player",
   "short_name": "PlayLuz",
   "description": "O melhor player de música com aprendizado inteligente",
-  "start_url": "/",
+  "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#050810",
+  "background_color": "#F5F7FF",
   "theme_color": "#7B2FFF",
   "orientation": "portrait-primary",
-  "categories": ["music", "entertainment"],
+  "categories": [
+    "music",
+    "entertainment"
+  ],
   "icons": [
-    {"src": "icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable"},
-    {"src": "icon-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable"}
+    {
+      "src": "icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
   ],
   "screenshots": [],
   "shortcuts": [
-    {"name": "Reproduzir", "url": "/?action=play", "description": "Continuar reprodução"},
-    {"name": "Minhas Playlists", "url": "/?tab=playlists", "description": "Ver playlists"}
-  ]
+    {
+      "name": "Reproduzir",
+      "url": "./index.html?action=play",
+      "description": "Continuar reprodução"
+    },
+    {
+      "name": "Minhas Playlists",
+      "url": "./index.html?tab=playlists",
+      "description": "Ver playlists"
+    }
+  ],
+  "scope": "./"
 }
