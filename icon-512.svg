@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
-  <defs>
-    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#1a0a3e"/>
-      <stop offset="100%" stop-color="#050810"/>
-    </radialGradient>
-    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7B2FFF"/>
-      <stop offset="100%" stop-color="#00F0FF"/>
-    </linearGradient>
-  </defs>
-  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
-  <circle cx="96" cy="96" r="70" fill="none" stroke="url(#glow)" stroke-width="3" opacity="0.4"/>
-  <circle cx="96" cy="96" r="50" fill="none" stroke="url(#glow)" stroke-width="2" opacity="0.6"/>
-  <circle cx="96" cy="96" r="18" fill="url(#glow)"/>
-  <path d="M78 68 L78 124 L138 96 Z" fill="url(#glow)" opacity="0.9"/>
-  <text x="96" y="168" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="url(#glow)">PlayLuz</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192"><defs><radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#1a0a3e"/><stop offset="100%" stop-color="#050810"/></radialGradient><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#7B2FFF"/><stop offset="100%" stop-color="#00F0FF"/></linearGradient></defs><rect width="192" height="192" rx="40" fill="url(#bg)"/><circle cx="96" cy="96" r="70" fill="none" stroke="url(#g)" stroke-width="2" opacity=".4"/><path d="M75 65 L75 127 L140 96 Z" fill="url(#g)" opacity=".95"/><text x="96" y="170" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="800" fill="url(#g)">PlayLuz</text></svg>

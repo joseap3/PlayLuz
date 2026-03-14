@@ -1,42 +1,21 @@
 {
   "name": "PlayLuz - Music Player",
   "short_name": "PlayLuz",
-  "description": "O melhor player de música com aprendizado inteligente",
+  "description": "Player de música PWA com aprendizado musical inteligente",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#F5F7FF",
-  "theme_color": "#7B2FFF",
+  "theme_color": "#F5F7FF",
   "orientation": "portrait-primary",
-  "categories": [
-    "music",
-    "entertainment"
-  ],
+  "categories": ["music", "entertainment"],
   "icons": [
-    {
-      "src": "icon-192.svg",
-      "sizes": "192x192",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-512.svg",
-      "sizes": "512x512",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
+    {"src": "icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable"},
+    {"src": "icon-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable"}
   ],
-  "screenshots": [],
   "shortcuts": [
-    {
-      "name": "Reproduzir",
-      "url": "./index.html?action=play",
-      "description": "Continuar reprodução"
-    },
-    {
-      "name": "Minhas Playlists",
-      "url": "./index.html?tab=playlists",
-      "description": "Ver playlists"
-    }
-  ],
-  "scope": "./"
+    {"name": "Reproduzir", "url": "./index.html?action=play", "description": "Continuar reprodução"},
+    {"name": "Biblioteca", "url": "./index.html?tab=library", "description": "Minha biblioteca"},
+    {"name": "Aprender", "url": "./index.html?tab=learn", "description": "Módulo de aprendizado"}
+  ]
 }
